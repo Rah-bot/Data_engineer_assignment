@@ -1,0 +1,17 @@
+Overview :
+
+This script connects to a SQLite database, retrieves data from multiple tables, and exports query results to a CSV file. It dynamically fetches table names, displays sample data, and executes a custom query for analysis.
+
+Objective of the Assignment :
+The objective of this assignment is to demonstrate the ability to extract, process, and analyze data from a SQLite database. Key tasks include dynamically retrieving table metadata, querying and aggregating data across multiple related tables, and exporting the results to a structured CSV file. This process highlights skills in SQL querying, data handling, and basic data reporting, ensuring a comprehensive understanding of ETL (Extract, Transform, Load) operations.
+
+Key Features:
+
+Table Inspection: Lists all tables in the database and displays the first 5 rows of each, along with column names.
+Custom Query Execution: Joins data from customers, sales, orders, and items tables to filter customers aged 18-35 and aggregates item quantities.
+CSV Export: Outputs query results to SQL_output.csv using a semicolon (;) delimiter for easy external analysis.
+
+How to Use:
+Ensure sqlite3 and csv libraries and pandas are installed.
+Update the database file path in the script.
+Run the script to view data samples and generate the CSV output.
